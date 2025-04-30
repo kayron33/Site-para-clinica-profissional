@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Heart, Stethoscope, Brain, Microscope, Activity, Baby, 
-  UserCheck, Bone, Eye, ShieldPlus, Clipboard, Pills } from 'lucide-react';
+  UserCheck, Bone, Eye, ShieldPlus, Clipboard, Syringe  } from 'lucide-react';
 
 import ServiceCard from '../components/ServiceCard';
 import CTASection from '../components/CTASection';
@@ -78,10 +78,11 @@ const ServicosPage: React.FC = () => {
       description: 'Orientação nutricional personalizada para manutenção da saúde, perda de peso e tratamento de doenças relacionadas à alimentação.',
     },
     {
-      icon: <Pills className="h-6 w-6" />,
+      icon: <Syringe className="h-6 w-6" />,
       title: 'Endocrinologia',
       description: 'Especialidade médica que trata dos distúrbios hormonais e metabólicos, como diabetes, problemas de tireoide e obesidade.',
     },
+    
   ];
 
   return (
